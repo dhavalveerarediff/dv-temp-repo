@@ -1,0 +1,20 @@
+name: 'Build Remix App'
+on:
+  push:
+
+permissions:
+  contents: read # to fetch code (actions/checkout)
+
+jobs:
+  build-app:
+    name: Build Remix App
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      - name: Install Dependencies
+        run: npm ci
+      - name: Build App
+        run: npm run build
