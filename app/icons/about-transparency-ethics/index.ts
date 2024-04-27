@@ -1,0 +1,5 @@
+export { ClientCentricIcon } from './client-centric'
+export { EffectiveCollaborationIcon } from './effective-collaboration'
+export { QualityServiceIcon } from './quality-service'
+export { ServiceDeliveredInTimeIcon } from './service-delivered-in-time'
+export { TeamWorkIcon } from './team-work'

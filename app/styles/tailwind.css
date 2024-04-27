@@ -1,0 +1,59 @@
+/* Primary Font */
+@import 'manrope-font.css';
+
+/* Cusrsive Font */
+@import 'bilbo-swash-caps-fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .paused {
+    animation-play-state: paused;
+  }
+
+  .transparentTextFillColor {
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-display: swap;
+  font-feature-settings: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: normal;
+  -moz-font-feature-settings: normal;
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  letter-spacing: 0em;
+  text-size-adjust: 100%;
+  width: 100%;
+  opacity: 1;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  display: none;
+}

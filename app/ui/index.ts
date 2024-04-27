@@ -1,0 +1,7 @@
+export const MainParentLayout: string = 'mx-auto max-w-[85rem] px-4 sm:px-6 lg:px-8'
+export const MdTwoColXsOneCol: string = 'grid auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto] justify-center gap-4 gap-y-5 md:grid-cols-[1fr_1fr]'
+export const MdThreeColXsOneCol: string = 'grid auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto] justify-center gap-4 gap-y-5 md:grid-cols-[1fr_1fr_1fr]'
+export const MdFourColXsOneCol: string = 'grid auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto] justify-center gap-4 gap-y-5 md:grid-cols-[1fr_1fr_1fr_1fr]'
+export const MdFourColXsTwoCol: string = 'grid auto-cols-[1fr] grid-cols-[1fr_1fr] grid-rows-[auto] justify-center gap-8 md:gap-4 gap-y-5 md:grid-cols-[1fr_1fr_1fr_1fr]'
+export const MainSubDivWrapper: string = 'min-h-screen w-full p-5 py-14 dark:bg-black md:p-10'
+export const FooterGridLayout: string = 'grid auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto] justify-center gap-4 gap-y-5 lg:grid-cols-[1.5fr_0.5fr_0.5fr]'
