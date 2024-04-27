@@ -1,0 +1,5 @@
+/*TEAM*/
+Designer & Developer: Dhaval Vira <dhavalveera@gmail.com>
+Site: https://mediateck.vercel.app
+GitHub: https://github.com/dhavalveera
+Location: Kachchh, Gujarat, India
